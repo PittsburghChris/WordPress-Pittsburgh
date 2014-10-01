@@ -1,0 +1,36 @@
+/* Titles
+--------------------------------------------- */
+
+.entry-title {
+	font-size: 36px;
+	font-size: 3.6rem;
+	line-height: 1;
+}
+
+.entry-title a,
+.sidebar .widget-title a {
+	color: $gray-dark;
+}
+
+.entry-title a:hover {
+	color: $gray-medium;
+}
+
+.widget-title {
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+	text-transform: uppercase;
+}
+
+.sidebar .widget-title a {
+	border: none;
+}
+
+.archive-title {
+	font-size: 20px;
+	font-size: 2rem;
+	margin-bottom: 24px;
+	margin-bottom: 2.4rem;
+}

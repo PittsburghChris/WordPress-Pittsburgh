@@ -1,0 +1,113 @@
+/*
+Site Header
+---------------------------------------------------------------------------------------------------- */
+
+/* Title Area
+--------------------------------------------- */
+
+.title-area {
+	float: left;
+	font-family: $header-font-family;
+	font-weight: 700;
+	padding: 16px 0;
+	padding: 1.6rem 0;
+	width: 100%;
+	text-align: center;
+}
+
+.header-image .title-area {
+	padding: 0;
+}
+
+.site-title {
+	font-size: 28px;
+	font-size: 2.8rem;
+	line-height: 1;
+	margin: 0 0 8px;
+	margin: 0 0 0.8rem;
+	text-transform: uppercase;
+}
+
+.site-title a,
+.site-title a:hover {
+	color: $gray-dark;
+}
+
+.site-description {
+	color: $gray-mediumer;
+	font-size: 16px;
+	font-size: 1.6rem;
+	font-weight: 300;
+	line-height: 1;
+	margin-bottom: 0;
+}
+
+/* Full width header, no widgets */
+
+.header-full-width .title-area,
+.header-full-width .site-title {
+	width: 100%;
+}
+
+.header-image .site-description,
+.header-image .site-title a {
+	display: block;
+	text-indent: -9999px;
+}
+
+/* Logo, hide text */
+
+.header-image .site-header .wrap {
+	background: url("images/logo-150.png") no-repeat; 
+	background-position: left top;
+	padding: 0;
+	height:219px;
+	margin-left: 30px;
+	margin-top: 111px;
+}  
+
+.header-image .site-title a {
+	float: left;
+	min-height: 164px;
+	width: 100%;
+}
+
+/* Header Widget Area
+--------------------------------------------- */
+
+.site-header .widget-area {
+	float: right;
+	width: 100%;
+	text-align: center;
+}
+
+.site-header .search-form {
+	margin: 16px auto ;
+	margin: 1.6rem auto;
+	text-align: center;
+}
+
+
+/* Header Image
+--------------------------------------------- */
+
+.site-header {
+	height:300px;
+	background: url("images/header-small.png") no-repeat center top;
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+	@include media($mobile-etc) {
+			background: url("images/header-720.jpg") no-repeat center top;}
+	@include media($tablet) {
+			background: url("images/header-920.jpg") no-repeat center top;}
+	@include media($desktop) {
+			background: url("images/header.jpg") no-repeat center top;}
+	@include media($large) {
+			-webkit-background-size: cover;
+			-moz-background-size: cover;
+			-o-background-size: cover;
+			background-size: cover;}
+	}
+

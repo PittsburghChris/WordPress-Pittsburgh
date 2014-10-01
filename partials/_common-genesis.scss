@@ -1,0 +1,36 @@
+/* Genesis
+--------------------------------------------- */
+
+.breadcrumb {
+	margin-bottom: 20px;
+	margin-bottom: 2rem;
+}
+
+.archive-description,
+.author-box {
+	background-color: $white;
+	margin-bottom: 40px;
+	margin-bottom: 4rem;
+}
+
+.author-box-title {
+	color: $gray-dark;
+	font-family: $callout;
+	font-size: 16px;
+	font-size: 1.6rem;
+	margin-bottom: 4px;
+	margin-bottom: 0.4rem;
+}
+
+.author-box a {
+	border-bottom: 1px solid $gray-light;
+}
+
+.author-box p {
+	margin-bottom: 0;
+}
+
+.author-box .avatar {
+	margin-right: 24px;
+	margin-right: 2.4rem;
+}

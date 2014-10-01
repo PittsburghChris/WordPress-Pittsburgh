@@ -1,0 +1,23 @@
+/*!	Theme Name: Pittsburgh
+	Theme URI: http://www.fortpittwebshop.com/themes
+	Description: Theme implementing Sass, Bourbon, & Neat; based on "genesis-mobile-first" by MickeyKay https://github.com/MickeyKay/genesis-mobile-first
+	Author: Fort Pitt Web Shop
+	Author URI: http://www.fortpittwebshop.com/
+	Version: 0.9.0
+	Tags: one-column, two-columns, right-sidebar, responsive-layout, custom-background, flexible-header
+	Template: genesis
+	License: GPL-2.0+
+	License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+/* Get into the Genesis grid */
+/* Add styleguide */
+
+@import "bourbon";
+//$visual-grid:true; 
+@import "partials/grid-settings";
+@import "neat";
+@import "partials/base";
+
+//@import "query-small";
+
